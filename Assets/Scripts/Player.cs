@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public GameObject SQL;
+    public GameObject SQL;			//加载sql脚本的游戏物体
     public Text playerName;
     public Text[] playerStats;
     public GameObject[] exitButtons;
